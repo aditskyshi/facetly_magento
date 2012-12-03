@@ -5,7 +5,6 @@
             <version>1.0.0</version>
         </Facetly_Find>
     </modules>
-	
 	<frontend>
         <routers>
             <find>
@@ -24,16 +23,11 @@
 			</updates>
 		</layout>		
     </frontend>
-   
     <global>
-
-       
         <models>
             <facetly_find>
                 <class>Facetly_Find_Model</class>
-
             </facetly_find>
-			
 			<find>
 				<class>Facetly_Find_Model</class>
 				<resourceModel>find_resource</resourceModel>
@@ -41,9 +35,7 @@
 			<find_resource>
 				<class>Facetly_Find_Model_Resource</class>
 			</find_resource>
-
         </models>
-
         <events>
             <catalog_product_save_after>
                 <observers>
@@ -64,7 +56,6 @@
                 </observers>
             </catalog_product_delete_after>
         </events>
-		
 		<helpers>
             <Facetly_Find>
                 <class>Mage_Core_Helper</class>

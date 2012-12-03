@@ -269,8 +269,6 @@ class Facetly_Find_Adminhtml_ConfigController extends Mage_Adminhtml_Controller_
 			$this->_initLayoutMessages('core/session');
 			$no_error = 0;
 		}
-	
-		
 		
 		$head = Mage::app()->getLayout()->getBlock('head');
 		$head->addItem('skin_css', 'css/progressBar.css');
